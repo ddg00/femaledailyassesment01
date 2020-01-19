@@ -11,7 +11,7 @@ export class AppController {
   }
 
   @Get('facebook/feeds')
-  async getFacebookFeeds() {
-    return await this.appService.getFacebookFeeds();
+  getFacebookFeeds() {
+    return this.appService.getFacebookFeeds();
   }
 }
