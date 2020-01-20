@@ -23,6 +23,13 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## API Feeds
+endpoint to get facebook feeds
+```$xslt
+curl -i -X GET \
+  "https://localhost:3000/facebook/feeds"
+```
+
 ## Test
 
 ```bash
